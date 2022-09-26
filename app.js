@@ -1,3 +1,5 @@
+let userName = "Məmməd"
+
 const main = str => {
     let vowels = /[aıoueəiöü]/gi;
     let result = str.match(vowels);
@@ -6,4 +8,4 @@ const main = str => {
     console.log("Sait hərflərin sayı : " + count + "\n" + "Söz daxilində olan böyük hərf sayı : " + upper.length + "(" + upper + ")");
 };
 
-main("Memmed")
+main(userName)
